@@ -21,11 +21,11 @@ class Email {
 
         $mail = new PHPMailer();
         $mail->isSMTP();
-        $mail->Host = '';
+        $mail->Host = 'sandbox.smtp.mailtrap.io';
         $mail->SMTPAuth = true;
         $mail->Port = 2525;
-        $mail->Username = '';
-        $mail->Password = '';
+        $mail->Username = 'a665f82c52d4a9';
+        $mail->Password = '82ec948468a1ca';
 
         $mail->setFrom('cuentas@uptask.com');
         $mail->addAddress('cuentas@uptask.com', 'uptask.com');
@@ -52,11 +52,11 @@ class Email {
 
         $mail = new PHPMailer();
         $mail->isSMTP();
-        $mail->Host = 'smtp.mailtrap.io';
+        $mail->Host = 'sandbox.smtp.mailtrap.io';
         $mail->SMTPAuth = true;
         $mail->Port = 2525;
-        $mail->Username = '';
-        $mail->Password = '';
+        $mail->Username = 'a665f82c52d4a9';
+        $mail->Password = '82ec948468a1ca';
 
         $mail->setFrom('cuentas@uptask.com');
         $mail->addAddress('cuentas@uptask.com', 'uptask.com');
